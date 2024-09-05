@@ -1,0 +1,21 @@
+{
+  "name": "dashmate-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createWallet": "node --no-warnings createWallet.js",
+    "registerIdentity": "node --env-file=.env --no-warnings registerIdentity.js",
+    "createContract": "node --env-file=.env --no-warnings createContract.js",
+    "submitDocument": "node --env-file=.env --no-warnings submitDocument.js",
+    "getDocument": "node --env-file=.env --no-warnings getDocument.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "dash": "^4.0.2"
+  }
+}
